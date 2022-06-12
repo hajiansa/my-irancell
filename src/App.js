@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./header";
+import Main from "./main";
+import Footer from "./footer";
+import './css/normalize.css';
+import './css/Grid.css';
+import './css/style.css';
+import './css/responsive.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App=()=>{
+  return <div className={"container header-bg"}>
+    <div className={"row"}>
+      <div className={"col-2"}><Header/> </div>
+      <div className={"col-7"}><Main/> </div>
+      <div className={"col-3"}><Footer/> </div>
     </div>
-  );
+  </div>
 }
-
 export default App;
