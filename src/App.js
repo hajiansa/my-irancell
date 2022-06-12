@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./header";
 import Main from "./main";
-import Footer from "./footer";
+import Footer from "./Footer";
 import './css/normalize.css';
 import './css/Grid.css';
 import './css/style.css';
@@ -16,4 +16,4 @@ const App=()=>{
     </div>
   </div>
 }
-export default app;
+export default App;
