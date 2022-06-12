@@ -9,7 +9,7 @@ const Footer = () =>{
         <div className={"profile"}>
             <img src={profile} alt={"profile_photo"}/>
             <div className={"profile_info"}>
-                <span> سلام ، صبا حاجیان</span>
+                <span> 2 سلام ، صبا حاجیان</span>
                 <span dir={"ltr"}>+989013499699</span>
             </div>
         </div>
