@@ -3,7 +3,7 @@ import './css/style.css';
 import './css/font.css';
 let logo = require('./img/logo.png');
 let searchIcon = require('./img/Search.png');
-let home = require('./img/Hom.png');
+let home = require('./img/Home.png');
 let plus = require('./img/Plus.png');
 let graph = require('./img/Graph.png');
 let chart = require('./img/Chart.png');
