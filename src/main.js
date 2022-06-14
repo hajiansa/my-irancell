@@ -109,7 +109,7 @@ const Apps = () => {
 let vector = require('./img/Vector.png');
 const Main = () => {
      return <main className={"general_main"}>
-          <h2 className={"main_title"}>صحفه اصلی</h2>
+          <h2 className={"main_title"}>صفحه اصلی</h2>
 
           <div className={"main_img"}>
                <img src={vector} alt={"main_img"} />
