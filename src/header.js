@@ -28,7 +28,7 @@ const Header = () => {
           </div>
           <div className={"menu_box"}>
                <ul className={"menu_list"}>
-                    <li className={"menu_item active-border "}><img src={home} alt={"home"} /><span className={"color-black"}> صحفه اصلی</span></li>
+                    <li className={"menu_item active-border "}><img src={home} alt={"home"} /><span className={"color-black"}> صفحه اصلی</span></li>
                     <h2 className="menu_items_titles m-top">سرویس ها</h2>
                     <li className={"menu_item "}><img src={plus} alt={"plus"} /><span> شارژ سیمکارت </span></li>
                     <li className={"menu_item"}><img src={graph} alt={"graph"} /><span> اینترنت</span></li>
